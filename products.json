@@ -1,0 +1,73 @@
+[
+   {
+      "id": "laptops",
+      "name": "Laptops",
+      "products": [
+        { "id": 101, "name": "Dell XPS 13", "brand": "Dell", "price": 999.99 , "stock": 10, "description": "13-inch Laptop nit InfinityEdge Display.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748437141/labtop_Dell_XPS_13_result_owveuy.webp" },
+        { "id": 102, "name": "MacBook Air M2", "brand": "Apple", "price": 1199.00, "stock": 7, "description": "Lightweight Laptop mit Apple's M2 chip.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748436633/MacBook_z9pdj6.webp" },
+        { "id": 103, "name": "HP Spectre x360", "brand": "HP", "price": 1099.99, "stock": 6, "description": "2-in-1 Laptop mit Touchscreen und Stiftunterstützung.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748436633/HP_Spectre_x360_result_riyrpd.webp" },
+        { "id": 104, "name": "Asus ROG Zephyrus G14", "brand": "Asus", "price": 1349.99, "stock": 4, "description": "Leistungsstarker Gaming-Laptop in kompakter Größe.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748433050/Asus_ROG_Zephyrus_G14_result_zu2hod.webp" },
+        { "id": 105, "name": "Lenovo ThinkPad X1 Carbon", "brand": "Lenovo", "price": 1149.00, "stock": 8, "description": "Business-Laptop mit toller Tastatur und Langlebigkeit.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748436633/Lenovo_ThinkPad_X1_Carbon_result_b6agds.webp" },
+        { "id": 106, "name": "Acer Swift 3", "brand": "Acer", "price": 699.00, "stock": 12, "description": "Leichter Laptop mit solider Leistung.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748436633/Acer_Swift_3_result_a9kxb5.webp" },
+        { "id": 107, "name": "MSI Stealth 15M", "brand": "MSI", "price": 1299.00, "stock": 5, "description": "Schlanker Gaming-Laptop mit RTX-Grafik.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748436633/MSI_Stealth_15M_emincr.webp" },
+        { "id": 108, "name": "Razer Blade 14", "brand": "Razer", "price": 1599.00, "stock": 3, "description": "Leistungsstarker Gaming-Laptop mit elegantem Design.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748436633/Razer_Blade_14_result_bkyczw.webp" }
+      ]
+    },
+    {
+      "id": "tablets",
+      "name": "Tablets",
+      "products": [
+        { "id": 201, "name": "iPad Pro 11", "brand": "Apple", "price": 899.00, "stock": 12, "description": "11-inch iPad Pro mit M2 chip.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748405720/iPad_Pro_11_result_zzm4na.webp" },
+        { "id": 202, "name": "Samsung Galaxy Tab S8", "brand": "Samsung", "price": 799.99, "stock": 5, "description": "Premium Android Tablet mit S Pen.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748414337/Samsung_Galaxy_Tab_S8_result_ihxsyr.webp" },
+        { "id": 203, "name": "Microsoft Surface Pro 9", "brand": "Microsoft", "price": 999.99, "stock": 6, "description": "Tablet-Laptop-Hybrid mit abnehmbarer Tastatur.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748407458/Microsoft_Surface_Pro_9_result_emxbo0.webp" },
+        { "id": 204, "name": "Lenovo Tab P11 Pro", "brand": "Lenovo", "price": 499.00, "stock": 10, "description": "Günstiges Tablet mit OLED-Display.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748254510/Lenovo_Tab_P11_Pro_result_nrpmwx.webp" },
+        { "id": 205, "name": "Amazon Fire HD 10", "brand": "Amazon", "price": 149.99, "stock": 20, "description": "Budgetfreundliches Tablet für den Medienkonsum.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748406782/amazon_fire_result_hsvgcn.webp" },
+        { "id": 206, "name": "Huawei MatePad Pro", "brand": "Huawei", "price": 599.99, "stock": 7, "description": "Tablet mit schlankem Design und Stift.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748437805/Huawei_MatePad_Pro_result_wzoflo.webp" },
+        { "id": 207, "name": "Realme Pad", "brand": "Realme", "price": 199.00, "stock": 15, "description": "Android-Tablet mit ordentlichen Spezifikationen.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748414050/Realme_Pad_result_slgzdx.webp" },
+        { "id": 208, "name": "TCL Tab 10", "brand": "TCL", "price": 179.99, "stock": 9, "description": "Android tablet mit 10-inch screen.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748414591/TCL_Tab_10_result_result_bu5yod.webp" }
+      ]
+    },
+    {
+      "id": "cameras",
+      "name": "Cameras",
+      "products": [
+        { "id": 301, "name": "Canon EOS R10", "brand": "Canon", "price": 979.99, "stock": 4, "description": "Spiegellose Kamera mit 24,2-MP-Sensor.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748416824/Canon_EOS_R10_result_z06k2c.webp" },
+        { "id": 302, "name": "Sony Alpha a6400", "brand": "Sony", "price": 898.00, "stock": 6, "description": "Spiegellose APS-C-Kamera mit schnellem Autofokus.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748416701/sony_result_uq8y13.webp" },
+        { "id": 303, "name": "Nikon Z50", "brand": "Nikon", "price": 859.00, "stock": 5, "description": "Compact mirrorless camera with 4K video.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748417277/Nikon_Z50_result_cdbnju.webp" },
+        { "id": 304, "name": "Fujifilm X-S10", "brand": "Fujifilm", "price": 999.00, "stock": 3, "description": "Kompakte spiegellose Kamera mit 4K-Video.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748415048/Fujifilm_X-S10_result_lnyvtq.webp" },
+        { "id": 305, "name": "Panasonic Lumix G7", "brand": "Panasonic", "price": 497.99, "stock": 8, "description": "Preisgünstige 4K-Kamera für Videokünstler.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748416501/Panasonic_Lumix_G7_result_suj0j8.webp" },
+        { "id": 306, "name": "Olympus OM-D E-M10", "brand": "Olympus", "price": 649.00, "stock": 4, "description": "Spiegellose Kamera im Retro-Stil.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748417615/Olympus_OM-D_E-M10_result_l8jdyc.webp" },
+        { "id": 307, "name": "Leica D-Lux 7", "brand": "Leica", "price": 1195.00, "stock": 2, "description": "Premium-Kompaktkamera für Fotoliebhaber.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748415888/Leica_D-Lux_7_result_nazqdn.webp" },
+        { "id": 308, "name": "GoPro Hero 11 Black", "brand": "GoPro", "price": 499.99, "stock": 12, "description": "Action-Kamera mit 5,3K-Video und Stabilisierung.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748415247/GoPro_Hero_11_Black_result_bbfjas.webp" }
+      ]
+    },
+    {
+      "id": "smartphones",
+      "name": "Smartphones",
+      "products": [
+        { "id": 401, "name": "iPhone 15 Pro", "brand": "Apple", "price": 1099.00, "stock": 8, "description": "Apples neuestes Flaggschiff-Smartphone.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748418820/iPhone_15_Pro_a0mo9h.webp" },
+        { "id": 402, "name": "Samsung Galaxy S23 Ultra", "brand": "Samsung", "price": 1199.99, "stock": 5, "description": "High-End-Android-Telefon mit toller Kamera.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748422979/samsung_result_ek7mud.webp" },
+        { "id": 403, "name": "Google Pixel 8 Pro", "brand": "Google", "price": 999.00, "stock": 6, "description": "Pixel-Telefon mit erweiterten KI-Kamerafunktionen.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748423287/Google_Pixel_8_Pro_result_result_uynaqg.webp" },
+        { "id": 404, "name": "OnePlus 11", "brand": "OnePlus", "price": 799.99, "stock": 10, "description": "Reibungslose Leistung mit der Hasselblad-Kamera.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748425165/OnePlus_11_result_z6ux1h.webp" },
+        { "id": 405, "name": "Xiaomi 13 Pro", "brand": "Xiaomi", "price": 849.99, "stock": 9, "description": "Hardware auf Flaggschiff-Niveau zu einem wettbewerbsfähigen Preis.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748425557/Xiaomi_13_Pro_result_result_alcptp.webp" },
+        { "id": 406, "name": "Sony Xperia 1 V", "brand": "Sony", "price": 1098.00, "stock": 4, "description": "Display und Kamera in Kinoqualität.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748424441/Sony_Xperia_1_V_result_wagqha.webp" },
+        { "id": 407, "name": "Motorola Edge 40 Pro", "brand": "Motorola", "price": 799.00, "stock": 7, "description": "Gebogenes Design mit Top-Leistung.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748421992/motorrla_result_fobtzd.webp" },
+        { "id": 408, "name": "Nothing Phone (2)", "brand": "Nothing", "price": 599.00, "stock": 11, "description": "Einzigartiges Design und sauberes Android-Erlebnis.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748423539/nothing_phone_result_medqij.webp" }
+      ]
+    },
+    {
+      "id": "monitors",
+      "name": "Monitors",
+      "products": [
+        { "id": 501, "name": "Dell UltraSharp U2723QE", "brand": "Dell", "price": 649.99, "stock": 10, "description": "27-Zoll-4K-Monitor mit IPS und USB-C-Hub.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748431464/Dell_UltraSharp_U2723QE_result_fd4dlc.webp" },
+        { "id": 502, "name": "LG UltraGear 27GP950", "brand": "LG", "price": 899.99, "stock": 5, "description": "4K UHD 144Hz Gaming-Monitor mit Nano IPS.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748432215/LG_UltraGear_27GP950_result_aemzz8.webp" },
+        { "id": 503, "name": "ASUS ProArt Display PA278CV", "brand": "ASUS", "price": 449.00, "stock": 7, "description": "Professioneller Monitor mit 100 % sRGB und USB-C.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748426374/ASUS_ProArt_result_r7vul4.webp" },
+        { "id": 504, "name": "Samsung Smart Monitor M8", "brand": "Samsung", "price": 699.99, "stock": 6, "description": "32-Zoll-Smart-Monitor mit Streaming-Apps und Webcam.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748426987/Samsung_Smart_Monitor_M8_result_rdshr9.webp" },
+        { "id": 505, "name": "AOC 24G2", "brand": "AOC", "price": 199.99, "stock": 15, "description": "24-Zoll-144-Hz-Gaming-Monitor mit IPS-Panel.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748425929/AOC_24G2_result_h7ghsw.webp" },
+        { "id": 506, "name": "BenQ EX3501R", "brand": "BenQ", "price": 599.00, "stock": 4, "description": "35-Zoll-Curved-Ultrawide-QHD-Monitor.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748431130/BenQ_EX3501R_result_dkyufw.webp" },
+        { "id": 507, "name": "MSI Optix MAG274QRF-QD", "brand": "MSI", "price": 429.99, "stock": 8, "description": "1440p-Gaming-Monitor mit 165 Hz Bildwiederholfrequenz.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748432357/MSI_Optix_MAG274QRF-QD_result_e17wrw.webp" },
+        { "id": 508, "name": "Gigabyte M32U", "brand": "Gigabyte", "price": 749.99, "stock": 5, "description": "32-Zoll-4K-Gaming-Monitor mit KVM-Switch.", "image": "https://res.cloudinary.com/dwtme9i7k/image/upload/v1748431752/gogobyte_result_dteeov.webp" }
+      ]
+    }
+
+]
