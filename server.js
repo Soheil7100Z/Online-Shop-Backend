@@ -26,18 +26,20 @@ app.get('/', (req, res) => {
   res.send('Backend is working');
 });
 
+
 app.get('/products' , (req , res) =>{
   try {
     res.json(products)
   } catch (error) {
-    res.status(500).send('Internal server error')
+    return res.status(500).json({ message: 'Ein interner Serverfehler ist aufgetreten' });
   }
 })
+
 
 app.get('/products/:id' , (req , res) =>{
   const { id } = req.params
   if (isNaN(id)) {
-    return res.status(400).send('Invalid product ID');
+    return res.status(400).send('Ungültige Produkt-ID');
   }
   const ID = parseInt(id);
       try {
@@ -49,15 +51,40 @@ app.get('/products/:id' , (req , res) =>{
           }
         })
          if (!foundItem) {
-         return res.status(404).send('Product not found');
+         return res.status(404).send('Produkt nicht gefunden');
           }
 
         return res.json(foundItem);
 
         } catch (error) {
-           console.error(error);
-           return res.status(500).send('Internal server error');
+          console.error(error);
+          return res.status(500).json({ message: 'Ein interner Serverfehler ist aufgetreten' });
         }
     })
 
+let updatedCartIDs = []
+app.post('/cart' , (req , res) => {
+  try {
+    const IDs = req.body
+    if (!Array.isArray(IDs)) {
+      return res.status(400).json({message: 'Ungültige Data-type'})
+    }
+    updatedCartIDs = IDs
+    res.status(200).json({message: 'Warenkorb erhalten'})
+    // console.log(IDs)
+  } catch (error) {
+    return res.status(500).json({ message: 'Ein interner Serverfehler ist aufgetreten' });
+  }
+})
+
+app.get('/updatedCart' , (req , res) => {
+  try {
+    if (updatedCartIDs.length === 0) {
+      res.status(400).json({message: 'Ihr Warenkorb ist leer'})
+    }
+    res.json(updatedCartIDs)
+  } catch (error) {
+    return res.status(500).json({ message: 'Ein interner Serverfehler ist aufgetreten' });
+  }
+})
 app.listen(PORT ,() => console.log(`server is working ${PORT}`) )
