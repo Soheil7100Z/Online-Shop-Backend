@@ -77,14 +77,33 @@ app.post('/cart' , (req , res) => {
   }
 })
 
+
 app.get('/updatedCart' , (req , res) => {
   try {
     if (updatedCartIDs.length === 0) {
       res.status(400).json({message: 'Ihr Warenkorb ist leer'})
     }
-    res.json(updatedCartIDs)
+    let cartList = []
+    updatedCartIDs.forEach(id => {
+      const numericID = Number(id)
+      for (const cat of products) {
+      const cartItem =  cat.products.find(product => product.id === numericID)
+      if (cartItem) {
+        cartList.push(cartItem)
+        break
+      }
+      }
+    })
+    if (!cartList || cartList.length === 0) {
+      res.status(404).json({message: 'Die Produkte in Ihrem Warenkorb sind leider nicht mehr verfügbar'})
+    }
+    res.json(cartList)
+    console.log(cartList)
   } catch (error) {
     return res.status(500).json({ message: 'Ein interner Serverfehler ist aufgetreten' });
   }
 })
+
+
+
 app.listen(PORT ,() => console.log(`server is working ${PORT}`) )
