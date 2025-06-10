@@ -12,12 +12,14 @@ app.use(cors({
     origin: [
       'http://localhost:5200',
     ],
-    methods: ['GET', 'POST'],
+    methods: ['GET', 'POST' , 'DELETE'],
     credentials: true
   }));
 
 app.use('/' , productRouter)
 app.use('/' , cartRouter)
-
+app.get('/' , (req , res) => {
+  res.send('The server is working')
+})
 
 app.listen(PORT ,() => console.log(`server is working ${PORT}`) )
