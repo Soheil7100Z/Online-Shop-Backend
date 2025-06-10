@@ -11,6 +11,7 @@ app.use(express.json())
 app.use(cors({
     origin: [
       'http://localhost:5200',
+      'http://online-shop-frontend-omega.vercel.app'
     ],
     methods: ['GET', 'POST' , 'DELETE'],
     credentials: true

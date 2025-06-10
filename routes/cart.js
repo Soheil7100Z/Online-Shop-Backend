@@ -30,7 +30,7 @@ router.get('/updatedCart' , (req , res) => {
 
   try {
     if (updatedCartIDs.length === 0 ) {
-      console.log('delete reqest working')
+      // console.log('delete reqest working')
       return res.status(400).json({message: 'Ihr Warenkorb ist leer'})
     }
     let cartList = []
@@ -48,7 +48,7 @@ router.get('/updatedCart' , (req , res) => {
       return res.status(404).json({message: 'Die Produkte in Ihrem Warenkorb sind leider nicht mehr verfügbar'})
     }
     res.json(cartList)
-    console.log(cartList)
+    // console.log(cartList)
   } catch (error) {
     return res.status(500).json({ message: 'Ein interner Serverfehler ist aufgetreten' });
   }
